@@ -88,7 +88,7 @@
             bindings = <
                                       &reset       &out OUT_USB &out OUT_BLE &none            &none        &out OUT_BLE &out OUT_USB &reset
              &bootloader &none        &none        &none        &none        &none            &none        &none        &none        &none        &none     &bootloader
-                         &none        &bt BT_SEL 2 &bt BT_SEL 1 &bt BT_SEL 0 &bt BT_CLR       &BT_CLR      &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &none     
+                         &none        &bt BT_SEL 2 &bt BT_SEL 1 &bt BT_SEL 0 &bt BT_CLR       &bt BT_CLR   &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &none     
                                                                 &trans       &trans           &trans       &trans
             >;
         };
