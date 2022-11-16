@@ -56,7 +56,7 @@
                                                      &kp ENTER  &lt NUM_SPC      &lt NAV_BCK &sk LSHIFT
             >;
 
-            sensor-bindings = <&inc_dec_kp UP DOWN &inc_dec_kp LEFT RIGHT>;
+            sensor-bindings = <&inc_dec_kp UP DOWN>;
         };
 
         numpad_layer {
@@ -88,7 +88,7 @@
             >;
 
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         system_layer {
