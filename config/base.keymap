@@ -56,7 +56,7 @@
                                                      &kp ENTER  &lt NUM_SPC      &lt NAV_BCK &sk LSHIFT
             >;
 
-            sensor-bindings = <&inc_dec_kp UP DOWN>;
+            sensor-bindings = <&inc_dec_kp PG_UP PG_DOWN>;
         };
 
         numpad_layer {
