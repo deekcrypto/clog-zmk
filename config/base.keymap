@@ -67,7 +67,7 @@
                                               &trans    &trans         &trans       &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp UP DOWN &inc_dec_kp LEFT RIGHT>;
+            sensor-bindings = <&inc_dec_kp UP DOWN>;
         };
 
         function_layer {
