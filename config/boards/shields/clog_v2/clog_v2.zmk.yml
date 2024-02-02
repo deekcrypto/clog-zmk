@@ -6,4 +6,3 @@ url: https://github.com/smores56/clog-v2
 requires: [seeed_xiao]
 features:
   - keys
-  - encoder
