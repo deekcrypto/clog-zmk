@@ -68,8 +68,8 @@
 
         function_layer {
             bindings = <
-                              &none        &none        &none      &none                &none   &kp F7  &kp F8 &kp F9
-            &none    &kp LGUI &kp LALT     &kp LCTRL    &kp LSHFT  &sl _FUNC            &none   &kp F4  &kp F5 &kp F6 &kp F11      &kp F12     
+                              &none        &none        &none      &to _BASE            &none   &kp F7  &kp F8 &kp F9
+            &none    &kp LCTRL &kp LALT     &kp LGUI    &kp LSHFT  &sl _FUNC            &none   &kp F4  &kp F5 &kp F6 &kp F11      &kp F12     
                      &none    &none        &none        &none      &none                &none   &kp F1  &kp F2 &kp F3 &kp F10  
                                                         &trans     &trans               &trans  &trans 
             >;
@@ -81,6 +81,15 @@
              &kp INS  &kp X_SELA   &kp LEFT     &hm C_D      &kp RIGHT    &kp PG_DN        &kp C_VOL_UP &sk HYPER    &kp LGUI     &kp LALT   &kp LCTRL &none
                       &kp X_UNDO   &kp X_CUT    &kp X_COPY   &kp X_PAST   &kp X_REDO       &kp C_VOL_DN &kp C_PREV   &kp C_PP     &kp C_NEXT &kp C_STOP
                                                              &trans       &trans           &trans       &trans
+            >;
+        };
+
+        qwer_layer {
+            bindings = <
+                             &kp Q  &kp W  &kp E  &kp R       &kp F2   &kp F3 &kp F4 &kp F5
+             &kp TAB  &kp X  &kp A  &kp S  &kp D  &kp F       &kp LA_A &kp P  &kp T  &none   &none  &to _BASE
+                      &kp 1  &kp 2  &kp 3  &kp 4  &kp 5       &kp 6    &kp 7  &kp 8  &kp 9   &kp 0 
+                                    &kp LSHIFT    &kp SPACE   &kp LCTRL     &kp LALT
             >;
         };
 

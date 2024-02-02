@@ -2,7 +2,8 @@
 #define _NUMB 1
 #define _FUNC 2
 #define _NAVI 3
-#define _SYST 4
+#define _QWER 4
+#define _SYST 5
 
 #define NAV_ENT _NAVI ENTER
 #define NUM_BCK _NUMB BACKSPACE
@@ -27,5 +28,6 @@
 #define X_E RGUI E
 #define X_I LALT I
 #define X_O RCTRL O
+#define LA_A LA(A)
 
 #define C_D LCTRL DOWN
